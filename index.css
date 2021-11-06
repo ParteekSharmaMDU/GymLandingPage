@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+}
+
+.form-control{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+a {
+    font-family: sans-serif;
+}
+
+span {
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.main {
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    background-color: aqua;
+    width: auto;
+    height: 140vh;
+    background: url(htm.jpg) no-repeat;
+    background-size: cover;
+    color: white;
+    overflow: hidden;
+}
+
+
+#bag {
+    position: relative;
+    top:35%;
+    left:10%;
+    transform: translate(-10%,-50%);
+   padding-left:10%;
+   width: 90%;
+}
+
+h1{
+    font-size: 3.5em;
+    font-family: sans-serif;
+    color:white;
+    margin:0 0 0.5em 0
+}
+
+p{
+    color: whitesmoke;
+    font-size: 1.2em;
+    margin:0 0 1em 0;
+}
+
+
+.btns{
+    display: flex;
+}
+
+.btn1{
+    border:2px solid white;
+    padding: 0.8em 2em;
+    background-color: transparent;
+    color:whitesmoke;
+    font-weight: 900;
+    font-family: sans-serif;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.btn2{
+    border:2px solid white;
+    margin-left:10px;
+    padding: 0.8em 2em;
+    background-color: white;
+    color:black;
+    font-weight: 900;
+    font-family: sans-serif;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.btn1:hover,.btn2:hover{
+    transform: scale(1.03);
+}
+
+
+
+.sponsers {
+    width: auto;
+    height: 42vh;
+    align-items: inherit;
+}
+
+.card {
+    width: 22%;
+    height: 12vw;
+    display: inline-block;
+    margin: 1vw;
+    position: relative;
+    left: 4vh;
+    border: none;
+}
+
+.footer {
+    width: auto;
+    height: 6vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
